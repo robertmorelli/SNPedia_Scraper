@@ -1,0 +1,21 @@
+rs28940571,minus,minus,GRCh38 38.1/141,22,42693200,A4GALT,(C;C),0,common in clinvar
+rs28940571,minus,minus,GRCh38 38.1/141,22,42693200,A4GALT,(G;G),0,
+rs74315453,minus,minus,GRCh38 38.1/141,22,42693404,A4GALT,(T;T),0,common in clinvar
+rs8150,minus,minus,GRCh38 38.1/141,17,76470935,"AANAT, RHBDF2",(C;C),0,common in clinvar
+rs786205157,minus,minus,GRCh38.p2 38.2/146,16,70277057,AARS,(A;A),0,common in clinvar
+rs200781477,plus,plus,GRCh38.p2 38.2/146,6,44301382,AARS2,(G;G),0,common in clinvar
+rs587777591,plus,plus,GRCh38 38.1/142,6,44305072,AARS2,(G;G),0,common in clinvar
+rs766771165,plus,plus,GRCh38.p2 38.2/146,6,44307280,AARS2,(-;-),0,common in clinvar
+rs137854498,minus,minus,GRCh38 38.1/141,9,104798504,ABCA1,(C;C),0,common in clinvar
+rs146292819,plus,plus,GRCh38.p7 38.3/149,9,104794495,ABCA1,(T;T),0,common in clinvar
+rs2066715,minus,minus,GRCh38 38.1/141,9,104825752,ABCA1,(G;G),0,common in complete genomics
+rs28937313,minus,minus,GRCh38 38.1/141,9,104822520,ABCA1,(A;A),0,common in clinvar
+rs28937313,minus,minus,GRCh38 38.1/141,9,104822520,ABCA1,(T;T),0,
+rs387906414,minus,minus,GRCh38 38.1/141,9,104818781,ABCA1,(TC;TC),0,common in clinvar
+rs4149268,minus,minus,GRCh38 38.1/141,9,104884939,ABCA1,(A;G),2,associated with higher HDL cholesterol
+rs4149268,minus,minus,GRCh38 38.1/141,9,104884939,ABCA1,(G;G),2,associated with higher HDL cholesterol
+rs4149338,minus,minus,GRCh38.p2 38.2/146,9,104783622,ABCA1,(C;C),0,common in clinvar
+rs1064793695,minus,minus,,2,214932640,"ABCA12, LOC101928103",(AG;AG),0,common in clinvar
+rs199503269,plus,plus,GRCh38.p7 38.3/150,2,214937608,"ABCA12, LOC101928103",(G;G),0,common in clinvar
+rs28940271,minus,minus,GRCh38 38.1/141,2,214980608,ABCA12,(A;G),2,"carrier for Lamellar ichthyosis, type 2"
+rs28940271,minus,minus,GRCh38 38.1/141,2,214980608,ABCA12,(G;G),0,common in clinvar
