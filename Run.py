@@ -9,7 +9,7 @@ import csv
 
 #p = multiprocessing.dummy.Pool(4)
 #print(list(p.map(Scrape_SNP_Page, liz)))
-x=Scrape_SNP_Page("rs1805007")
+x=Scrape_SNP_Page("rs28940269")
 try:
   os.remove('test.csv')
 except:
