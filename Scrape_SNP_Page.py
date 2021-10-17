@@ -13,21 +13,29 @@ def findInTables(string,tables):
         if(td):
           if(td[0].text==string):
             return "".join([x.text for x in td[1:]])
+  print(string+" not found")
   return None
 
 
-#scrapes a page of specific rs number
 
-def Scrape_SNP_Page(rs):
-  stuff=[]
 
-  #retry for failed loading
+#soup up and roll out!
+def SoupUp(rs):
   url = 'https://www.snpedia.com/index.php/'+rs
   response = requests.get(url)
   while(response.status_code!=200):
     response = requests.get(url)
   html = str(response.content)
   soup=BeautifulSoup(html)
+  return soup
+
+
+#big ol controller boy
+def Scrape_SNP_Page(rs):
+  stuff=[]
+
+  soup=SoupUp(rs)
+
 
 
 
@@ -58,7 +66,8 @@ def Scrape_SNP_Page(rs):
     stuff.append(findInTables("Gene",tables)[:-2])
   except:
     stuff.append(None)
-  toa.append
   #makes a list for every column in the gene table. this is for easy db entry
+
+
   return [[*stuff,*x] for x in toa]
 
